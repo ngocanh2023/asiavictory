@@ -1,0 +1,132 @@
+.admNav{
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 100vw;
+    height:100vh;
+    padding: 80px 0 0 30px;
+  }
+.adminTable{
+    background: linear-gradient(125deg, rgb(17, 46, 78) 0%, rgb(93, 117, 160) 60%, rgb(26, 216, 200) 100%);
+    width: 550px;
+    border-radius: 0.5rem;
+    box-shadow: 10px 10px 10px black;
+    /* margin: 50px 50px 10px 10px; */
+}
+
+.addNewBtn{
+    width: 350px;
+}
+.admCont{
+    width: 350px;
+}
+h3{
+    color: red;
+    padding: 20px 20px 10px 20px;
+    margin: 0;
+}
+.addNewBtn{
+    color: white;
+    padding: 0 20px 20px 20px;
+}
+
+.selectCont select{
+    width: 500px;
+    height: 30px;
+    border-radius: 0.5rem;
+    margin: 0 0 10px 0;
+    font-size: 0.8rem;
+    padding: 5px;
+}
+.contAdm{
+    display: grid;
+}
+.contAdm input, .titleContent input {
+    width: 500px;
+    height: 20px;
+    margin: 0 0 10px 0;
+    border-radius: 0.5rem;
+    padding: 5px;
+    font-size: 0.8rem;
+}
+.contAdm textarea{
+    width: 500px;
+    height: 100px;
+    margin: 0 0 2px 0;
+    border-radius: 0.5rem;
+    padding: 5px;
+    font-size: 0.8rem;
+}
+.deleteAdm button{
+    border-radius: 0.5rem;
+    padding: 2px;
+    float: right;
+    margin: 2px 40px 2px 0;
+    background-color: red;
+    color: white;
+}
+.deleteAdm button:hover{
+    background-color: brown;
+    color: black;
+}
+.addBtn{
+    width: 50px;
+    height: 30px;
+    border-radius: 0.5rem;
+    background-color: rgb(243, 174, 46);
+    color: white;
+    margin: 0 20px 0 0;
+    box-shadow: 5px 5px 5px black;
+}
+.submitBtn{
+    width: 80px;
+    height: 30px; 
+    border-radius: 0.5rem;
+    background-color: rgb(9, 202, 9);
+    color: white;
+    box-shadow: 5px 5px 5px black;
+    margin-right: 20px;
+}
+.cancelBtn{
+    width: 80px;
+    height: 30px; 
+    border-radius: 0.5rem;
+    background-color: rgb(218, 95, 235);
+    color: white;
+    box-shadow: 5px 5px 5px black;
+}
+.controlAdm{
+    padding: 20px 0 40px 0;
+}
+
+.addBtn:hover{
+    background-color: rgb(214, 141, 4);
+    color: black;
+}
+.submitBtn:hover{
+    background-color: rgb(8, 94, 8);
+    color: black;
+}
+.cancelBtn:hover{
+    background-color: rgb(107, 32, 117);
+    color: black;
+}
+.errorEmpty, .resultPost{
+    padding: 10px 0 0 0;
+    color: red;
+    font-weight: bold;
+}
+.btnAll{
+    display: flex;
+}
+.returnHome button{
+    margin: 20px 0 0 10px;
+    width: 80px;
+    height: 30px;
+    border-radius: 0.5rem;
+    background-color: orange;
+    color: white;
+    box-shadow: 5px 5px 5px black;
+}
+.returnHome button:hover{
+    background-color: olivedrab;
+    color: black;
+}

@@ -1,0 +1,63 @@
+.feedback{
+    padding: 0 0 0 0px;
+}
+.feedback h3{
+    padding: 10px 0 20px 10px;
+}
+.userAll{
+    display: flex;
+    font-size: 0.8rem;
+    padding: 20px 20px 50px 20px;
+}
+.inforUser {
+    width: 40vw;
+}
+.image{
+    text-align: center;
+}
+
+.image img{
+    width: 10vw;
+    border-radius: 5rem;
+    padding: 10px 0 10px 0;
+    border: 0.2rem solid white;
+}
+.nameCus{
+    text-align: center;
+    font-size: 1rem;
+    color: white;
+}
+.comment {
+    margin-top: 10px;
+    position: relative;
+    width: 40vw;
+    background: rgb(93, 117, 160) ;
+    padding: 20px;
+    border-radius: 0.5rem;
+    display: grid;
+    place-items: center;
+    color: white;
+    font-size: 1rem;
+    border: 0.1rem solid white;
+    box-shadow: 10px 10px 10px gray;
+
+  }
+  
+.comment:before {
+    content: "";
+    position: absolute;
+    top: -30px;
+    left: -45px;
+    height: 50px;
+    width: 40px;
+    background: transparent;
+    border-bottom-left-radius: 50%;
+    box-shadow: 0 20px 0 0  rgb(93, 117, 160) ;
+    transform: rotate(-15deg);
+    border-bottom: 0.1rem solid white;
+}
+.feedbackCon{
+    border-radius: 0.5rem;
+    /* border: 0.1rem solid hsla(217, 100%, 50%, 1); */
+    background: linear-gradient(25deg, rgb(11, 27, 44) 0%, rgb(93, 117, 160) 40% , rgb(26, 216, 200) 100%);
+}

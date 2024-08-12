@@ -1,0 +1,21 @@
+.mapAll h3{
+    padding: 20px 0 10px 10px;
+}
+.mapCon {
+    display: flex;
+    padding: 0 0 40px 0;
+}
+.mapImg img{
+    width: 50vw;
+    border-radius: 1rem;
+    padding: 10px;
+}
+.mapTitle {
+    font-size: 0.8rem;
+    padding: 20px 20px 20px 20px;
+    margin: 20px 20px 0 50px;
+    border: 0.1rem solid rgb(5, 109, 219);
+    border-radius: 1rem;
+    box-shadow: 10px 10px 10px gray;
+    text-align: left;
+}

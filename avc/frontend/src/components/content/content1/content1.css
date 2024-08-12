@@ -1,0 +1,44 @@
+.content1 {
+    padding-left: 10px;
+}
+.content1 h3{
+    padding: 10px 0 10px 0px;
+}
+.contAll h4{
+    font-size: 1rem ;
+    margin: 0px 0 10px 0;
+}
+.imgCo1 img{
+    width: 40vw;
+    border-radius: 0.5rem;
+}
+.contPra{
+    display: flex;
+    padding: 10px 0 10px 0;
+}
+.contAll{
+    width: 55vw;
+    font-size: 0.8rem;
+    padding: 0 0.5vw 0 2vw;
+    margin: 0;
+    text-align: justify;
+}
+@media screen and (max-width: 680px) {
+    .contPra{
+        display: grid;
+    }
+    .imgCo1 img{
+        width: 95vw;
+        border-radius: 1.5rem;
+        padding: 10px 0 10px 0;
+        margin: none;
+    }
+    /* .content1 h3{
+        padding: 0 0 0 10px;
+    } */
+    .contAll{
+        width: 95vw;
+        padding: 10px 0 10px 0;
+        margin: none;
+    }
+  }

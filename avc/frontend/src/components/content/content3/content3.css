@@ -1,0 +1,43 @@
+.content3{
+    padding-left: 10px;
+}
+.content3 h3{
+    padding-left: 0;
+}
+.cont3All h4 {
+    font-size: 1rem;
+    margin: 0px 0 10px 0;
+}
+.contPra3{
+    display: flex;
+    padding: 10px 0 10px 0;
+}
+.imgCo3 img{
+    width: 40vw;
+    border-radius: 0.5rem;
+}
+.cont3All {
+    width: 55vw;
+    padding: 0 0.5vw 0 2vw;
+    font-size: 0.8rem;
+    text-align: justify;
+}
+@media screen and (max-width: 680px) {
+    .contPra3{
+        display: grid;
+    }
+    .imgCo3 img{
+        width: 95vw;
+        border-radius: 1.5rem;
+        padding: 10px 0vw 10px 0;
+        margin: none;
+    }
+    /* .content3 h3{
+        padding: 0 0 0 10px;
+    } */
+    .cont3All{
+        width: 95vw;
+        padding: 10px 0vw 10px 0;
+        margin: none;
+    }
+  }

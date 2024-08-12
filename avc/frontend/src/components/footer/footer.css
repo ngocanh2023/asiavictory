@@ -1,0 +1,29 @@
+.footer{
+    padding: 10px 10px 10px 20px;
+    font-size: 0.8rem;
+    border-radius: 0.5rem;
+    margin-top: 10vh;
+    margin: 0;
+    background: linear-gradient(125deg, rgb(17, 46, 78) 0%, rgb(93, 117, 160) 60%, rgb(26, 216, 200) 100%);
+    color: white;
+}
+  
+  .fLists{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+  }
+  
+  .fList{
+    list-style: none;
+    padding: 0;
+  }
+  
+  .fListItem{
+    margin-bottom: 10px;
+    cursor: pointer;
+  }
+  .fText{
+    color: white;
+  }

@@ -1,0 +1,43 @@
+.content2{
+    padding-left: 10px;
+}
+.content2 h3{
+    padding-left: 0px;
+}
+.cont2Pra{
+    display: flex;
+    padding: 10px 0 10px 0;
+}
+.cont2All h4{
+    font-size: 1rem;
+    margin: 0 0 10px 0;
+}
+.cont2All{
+    width: 55vw;
+    font-size: 0.8rem;
+    text-align: justify;
+    padding: 0 2vw 0 0;
+}
+.imgCo2 img{
+    width: 40vw;
+    border-radius: 0.5rem;
+}
+@media screen and (max-width: 680px) {
+    .cont2Pra{
+        display: grid;
+    }
+    .imgCo2 img{
+        width: 95vw;
+        border-radius: 1.5rem;
+        padding: 10px 0 10px 0;
+        margin: none;
+    }
+    /* .content2 h3{
+        padding: 0 0 0 10px;
+    } */
+    .cont2All{
+        width: 95vw;
+        padding: 10px 0 10px 0;
+        margin: none;
+    }
+  }

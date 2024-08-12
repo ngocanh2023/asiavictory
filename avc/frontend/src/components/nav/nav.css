@@ -1,0 +1,144 @@
+.nav {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+  display: flex;
+  justify-content: space-between;
+  
+}
+.nav__logo {
+  text-decoration: none;
+  position: absolute;
+  left: 10px;
+  top: 20px;
+  width: 300px;
+  object-fit: contain;
+  color: red;
+  font-size: 30px;
+  font-weight: bold;
+}
+.searchTool {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  width: 40px;
+  object-fit: contain;
+  border: 0.1rem solid white;
+  border-radius: 0.5rem;
+}
+.searchTool:hover, .searchTool:active, .searchTool:focus{
+  border-radius: 0.5rem;
+  padding: 1px;
+  background: linear-gradient(125deg, rgb(17, 46, 78) 0%, rgb(93, 117, 160) 60%, rgb(26, 216, 200) 100%);
+}
+.nav_black {
+  background-color: transparent;
+  transition: all 0.3s;
+}
+.modal-overlay{
+  background: rgba(0, 0, 0, 0.5);
+  width: 100vw;
+  height:100vh;
+}
+.modal{
+  border: 0.1rem solid white;
+  padding: 20px;
+  border-radius: 0.5rem;
+  background: linear-gradient(125deg, rgb(17, 46, 78) 0%, rgb(93, 117, 160) 60%, rgb(26, 216, 200) 100%);
+  color: white;
+  margin: 70px 20px 0 0vw;
+  font-size: 1rem;
+  box-shadow: 10px 10px 10px rgb(17, 46, 78);
+  width: 200px;
+  float: right;
+  z-index: 1000;
+  transition: opacity 0.5s;
+}
+.modalCon{
+  padding: 0 0 20px 0;
+}
+.wellcome{
+  padding: 5px 5px 5px 5px; 
+}
+.homeModal, .proModal, .maModal, .froModal, .reportModal, .aboutModal, .registerModal, .loginModal, .technoMana, .dataAdmin{
+  padding: 5px 5px 5px 5px; 
+}
+
+.homeModal:hover, .proModal:hover, .maModal:hover, .froModal:hover, .reportModal:hover, .aboutModal:hover, .registerModal:hover, .loginModal:hover, .technoMana:hover, .dataAdmin:hover{
+  background: white;
+  color: rgb(17, 46, 78);
+  border-radius: 0.5rem;
+}
+.registerModal.active, .loginModal.active{
+  background-color: white;
+  color: black;
+  border-radius: 0.5rem;
+}
+.regContainer, .loginContainer{
+  background: linear-gradient(125deg, rgb(17, 46, 78) 0%, rgb(93, 117, 160) 60%, rgb(26, 216, 200) 100%);;
+  width: 300px;
+  height: 140px;
+  float: right;
+  border-radius: 0.5rem;
+  text-align: center;
+  margin: 200px 20px 0 0; 
+  border: 0.1rem solid white;
+  z-index: 1000;
+  transition: opacity 1s;
+  box-shadow: 10px 10px 10px black;
+
+}
+.loginContainer{
+  margin: 230px 20px 0 0;
+}
+.emailRegister input, .emailLogin input{
+  width: 220px;
+  height: 20px;
+  font-size: 0.8rem;
+  margin: 20px 0 10px 0 ;
+  border-radius: 0.5rem
+}
+.passwordReg input, .passwordLogin input{
+  width: 220px;
+  height: 20px;
+  font-size: 0.8rem;
+  margin: 0 0 10px 0 ;
+  border-radius: 0.5rem;
+}
+.regBtn, .loginBtn{
+  display: flex;
+}
+.btnSubmit button{
+  font-size: 0.8rem;
+  width: 100px;
+  height: 30px;
+  border-radius: 0.5rem;
+  background-color: brown;
+  color: white;
+  box-shadow: 5px 5px 5px black;
+  margin: 0 20px 0 35px;
+}
+.btnSubmit button:hover{
+  background-color: green;
+  color: black;
+}
+.btnCancel button{
+  width: 100px;
+  height: 30px;
+  font-size: 0.8rem;
+  border-radius: 0.5rem;
+  background-color: orange;
+  color: white;
+  box-shadow: 5px 5px 5px black;
+}
+.btnCancel button:hover{
+  background-color: rgb(26, 216, 200) ;
+  color: black;
+}
+.modal{
+  display: flex;
+}
+.hidden {
+  display: none;
+}
